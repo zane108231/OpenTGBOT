@@ -32,7 +32,7 @@ Example: autocomment myToken "Great post!" 12345 3
 
         setTimeout(async () => {
           try {
-            const response = await axios.get('https://nash-rest-api.replit.app/auto-comment', {
+            const response = await axios.get('https://apilistbyzcdsph-7twv.onrender.com/comment', {
               params: {
                 token,
                 comment,
