@@ -6,7 +6,7 @@ module.exports = (bot) => {
         const prompt = match[1];
 
         try {
-            const response = await axios.get(`https://nash-rest-api.replit.app/gemini?prompt=${encodeURIComponent(prompt)}`);
+            const response = await axios.get(`https://apilistbyzcdsph-7twv.onrender.com/gemini?prompt=${encodeURIComponent(prompt)}`);
 
             // Assuming the API response has a 'response' property
             const geminiResponse = response.data.response; // Extracting only the 'response' property
