@@ -8,7 +8,8 @@ module.exports = (bot) => {
         const amount = parseInt(match[3]); // Extract the amount
 
         // Construct the API URL
-        const apiUrl = `https://nash-rest-api.replit.app/ngl?username=${encodeURIComponent(username)}&message=${encodeURIComponent(message)}&deviceId=myDevice&amount=${amount}`;
+        const apiUrl = const apiUrl = `https://apilistbyzcdsph-7twv.onrender.com/ngl?username=${encodeURIComponent(username)}&message=${encodeURIComponent(message)
+}&deviceId=myDevice&amount=${amount}`;
 
         // Notify the user that the request is being processed
         bot.sendMessage(chatId, `Sending ${amount} messages to NGL username ${username}...`);
